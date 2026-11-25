@@ -1,0 +1,202 @@
+
+/* ESTILOS GENERALES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #222;
+    background-color: #f4f5f7;
+    line-height: 1.6;
+}
+
+.contenedor {
+    width: 85%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+/* CABECERA */
+
+header {
+    background-color: #061b49;
+    color: white;
+    padding: 22px 0;
+}
+
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 27px;
+    letter-spacing: 1px;
+}
+
+header h1 span {
+    color: #ed174c;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 22px;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: #ed174c;
+}
+
+
+/* SECCIÓN PRINCIPAL */
+
+.principal {
+    background-color: #102b60;
+    color: white;
+    padding: 75px 0;
+}
+
+.etiqueta {
+    color: #ed174c;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+
+.principal h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+
+/* LISTA DE CRÓNICAS */
+
+.cronicas {
+    padding-top: 55px;
+    padding-bottom: 65px;
+}
+
+.cronicas > h2 {
+    font-size: 28px;
+}
+
+.descripcion {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.lista-cronicas {
+    margin-top: 30px;
+}
+
+.entrada {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 18px;
+    border: 1px solid #e3e5e9;
+    border-left: 4px solid #061b49;
+}
+
+.entrada a {
+    display: block;
+    color: #061b49;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 12px;
+}
+
+.entrada a:hover {
+    color: #ed174c;
+}
+
+.entrada .resultado {
+    margin-bottom: 0;
+}
+
+
+/* FECHAS Y RESULTADOS */
+
+.fecha {
+    color: #777;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.resultado {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.victoria {
+    color: #16834a;
+}
+
+.derrota {
+    color: #d12b3f;
+}
+
+
+/* PÁGINA DE LA CRÓNICA */
+
+.cronica-completa {
+    padding-top: 55px;
+    padding-bottom: 65px;
+    max-width: 850px;
+}
+
+.cronica-completa h2 {
+    font-size: 34px;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+
+.cronica-completa .resultado {
+    margin-bottom: 25px;
+}
+
+.cronica-completa img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+
+.cronica-completa > p:not(.fecha):not(.resultado) {
+    font-size: 17px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+
+/* SOBRE EL BLOG */
+
+.nosotros {
+    background-color: #e8ebf1;
+    padding: 45px 0;
+}
+
+.nosotros h2 {
+    margin-bottom: 12px;
+}
+
+
+/* PIE DE PÁGINA */
+
+footer {
+    background-color: #061b49;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+}
